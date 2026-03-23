@@ -23,7 +23,7 @@ public class JavaApplication3 {
         System.out.println("Work in progress...");  // stash
         System.out.println("Selective staging done");
         System.out.println("WIP change");
-        System.out.println("WRONG LOGIC");
+        System.out.println("Reporting feature");
 
         Scanner sc = new Scanner(System.in);
 
