@@ -21,6 +21,7 @@ public class JavaApplication3 {
         System.out.println("Menu Improved");   // selective staging
         System.out.println("Ticket Status Feature Added");  // branch task
         System.out.println("Work in progress...");  // stash
+        System.out.println("Selective staging done");
 
         Scanner sc = new Scanner(System.in);
 
