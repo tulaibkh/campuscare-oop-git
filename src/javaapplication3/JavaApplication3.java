@@ -22,6 +22,7 @@ public class JavaApplication3 {
         System.out.println("Ticket Status Feature Added");  // branch task
         System.out.println("Work in progress...");  // stash
         System.out.println("Selective staging done");
+        System.out.println("WIP change");
 
         Scanner sc = new Scanner(System.in);
 
