@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package javaapplication3;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Devflovv
- */
 public class JavaApplication3 {
 
     static String calculateGrade(double percentage) {
@@ -23,45 +15,43 @@ public class JavaApplication3 {
             return "F";
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        try ( // TODO code application logic here
-                Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter student name: ");
-            String name = sc.nextLine();
 
-            System.out.print("Enter roll number: ");
-            String roll = sc.nextLine();
+        System.out.println("CampusCare System");
+        System.out.println("Menu Improved");   // selective staging
+        System.out.println("Ticket Status Feature Added");  // branch task
+        System.out.println("Work in progress...");  // stash
 
-            System.out.print("Enter marks of Subject 1: ");
-            int m1 = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
 
-            System.out.print("Enter marks of Subject 2: ");
-            int m2 = sc.nextInt();
+        System.out.print("Enter student name: ");
+        String name = sc.nextLine();
 
-            System.out.print("Enter marks of Subject 3: ");
-            int m3 = sc.nextInt();
+        System.out.print("Enter roll number: ");
+        String roll = sc.nextLine();
 
-<<<<<<< HEAD
-            int total = m1 - m2 - m3; // bad change
-            double percentage = (total / 200.0) * 100.0; // temporary change
-            String grade = calculateGrade(percentage);
-=======
-        int total = m1 - m2 - m3;  // bad change
+        System.out.print("Enter marks of Subject 1: ");
+        int m1 = sc.nextInt();
+
+        System.out.print("Enter marks of Subject 2: ");
+        int m2 = sc.nextInt();
+
+        System.out.print("Enter marks of Subject 3: ");
+        int m3 = sc.nextInt();
+
+        int total = m1 + m2 + m3;  // FIXED
         double percentage = (total / 300.0) * 100.0;
         String grade = calculateGrade(percentage);
->>>>>>> parent of 60ad001 (Bad change)
 
-            System.out.println("\n----- Student Report -----");
-            System.out.println("Name: " + name);
-            System.out.println("Roll No: " + roll);
-            System.out.println("Marks: " + m1 + ", " + m2 + ", " + m3);
-            System.out.println("Total: " + total + "/300");
-            System.out.printf("Percentage: %.2f%%\n", percentage);
-            System.out.println("Grade: " + grade);
-            System.out.println("--------------------------");
-        }
+        System.out.println("\n----- Student Report -----");
+        System.out.println("Name: " + name);
+        System.out.println("Roll No: " + roll);
+        System.out.println("Marks: " + m1 + ", " + m2 + ", " + m3);
+        System.out.println("Total: " + total + "/300");
+        System.out.printf("Percentage: %.2f%%\n", percentage);
+        System.out.println("Grade: " + grade);
+        System.out.println("--------------------------");
+
+        sc.close();
     }
 }
