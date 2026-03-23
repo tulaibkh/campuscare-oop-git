@@ -23,7 +23,10 @@ public class JavaApplication3 {
         System.out.println("Work in progress...");  // stash
         System.out.println("Selective staging done");
         System.out.println("WIP change");
+<<<<<<< HEAD
         System.out.println("Reporting feature");
+=======
+>>>>>>> parent of 7aa7f36 (Bad change: wrong priority rule)
 
         Scanner sc = new Scanner(System.in);
 
